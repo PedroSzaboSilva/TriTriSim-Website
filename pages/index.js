@@ -298,29 +298,176 @@ export default function Home() {
         </a>
       </section>
 
-      <div style={{ display: "grid", margin: "20px", fontFamily: 'Open Sans, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, Noto Sans, Segoe UI, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' }}>
+      <div
+        style={{
+          padding: "5rem", // trocado de margin pra padding
+          fontFamily:
+            "Open Sans, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, Noto Sans, Segoe UI, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+        }}
+      >
         <div
           className="card"
           style={{
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
+            backgroundColor: "white",
+            borderRadius: "10px",
+            boxShadow: "0 0 20px rgba(0,0,0,0.1)",
+            padding: "2rem",
           }}
         >
           <div className="texts" style={{ fontSize: "100%" }}>
-            <h2 style={{ fontSize: "1.875rem", lineHeight: '2.25rem' }}>What is TriTriSim TFX?</h2>
-            <p style={{ fontFamily: 'Open Sans, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, Noto Sans, Segoe UI, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji',     fontSize: '1.125rem', lineHeight: '1.75rem' }}>
-              TFX Is an addon for <b>Microsoft Flight Simulator</b>
-              , focusing mainly on emergency effects that aren’t visible in the normal game. This includes fires, sparks, and even crash animations.
-              TFX supports both <b>MSFS 2020 and 2024</b>, and includes support for a wide range of aircraft.
+            <h2
+              style={{
+                fontSize: "1.875rem",
+                lineHeight: "2.25rem",
+                fontWeight: "800",
+                marginBlockStart: "0.83em",
+                marginBlockEnd: "0.83em",
+                marginInlineStart: "0px",
+                marginInlineEnd: "0px",
+                color: "rgb(17 24 39)",
+              }}
+            >
+              What is TriTriSim TFX?
+            </h2>
+            <p
+              style={{
+                fontFamily:
+                  "Open Sans, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, Noto Sans, Segoe UI, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+                fontSize: "1.125rem",
+                lineHeight: "1.75rem",
+                color: "rgb(107 114 128)",
+              }}
+            >
+              TFX Is an addon for <b>Microsoft Flight Simulator</b>, focusing
+              mainly on emergency effects that aren’t visible in the normal
+              game. This includes fires, sparks, and even crash animations. TFX
+              supports both <b>MSFS 2020 and 2024</b>, and includes support for
+              a wide range of aircraft.
             </p>
           </div>
 
-          <div className="image">
+          <div className="image" style={{ marginLeft: "2rem" }}>
             <img
               src="https://installer.cdn.tritrisim.com/Images/777-3fire.png"
-              width="500rem"
-              style={{ borderRadius: "10px" }}
+              width="600rem"
+              style={{
+                borderRadius: "10px",
+              }}
+            ></img>
+          </div>
+        </div>
+        <br />
+        <div
+          className="card"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            backgroundColor: "white",
+            borderRadius: "10px",
+            boxShadow: "0 0 20px rgba(0,0,0,0.1)",
+            padding: "2rem",
+          }}
+        >
+          <div className="image" style={{ marginRight: "2rem" }}>
+            <img
+              src="https://installer.cdn.tritrisim.com/Images/b777ffire.png"
+              width="600rem"
+              style={{
+                borderRadius: "10px",
+              }}
+            ></img>
+          </div>
+
+          <div className="texts" style={{ fontSize: "100%" }}>
+            <h2
+              style={{
+                fontSize: "1.875rem",
+                lineHeight: "2.25rem",
+                fontWeight: "800",
+                marginBlockStart: "0.83em",
+                marginBlockEnd: "0.83em",
+                marginInlineStart: "0px",
+                marginInlineEnd: "0px",
+                color: "rgb(17 24 39)",
+              }}
+            >
+              What is included in TFX?
+            </h2>
+            <p
+              style={{
+                fontFamily:
+                  "Open Sans, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, Noto Sans, Segoe UI, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+                fontSize: "1.125rem",
+                lineHeight: "1.75rem",
+                color: "rgb(107 114 128)",
+              }}
+            >
+              TFX includes a wide range of effects, including{" "}
+              <b>fires, sparks, and crash animations</b>. It also includes
+              support for <b>both native and custom aircrafts</b> that are
+              compatible with the <b>MSFS2020</b> and <b>MSFS2024</b>. TFX is
+              constantly being updated with new effects and aircrafts.
+            </p>
+          </div>
+        </div>
+        <br />
+        <div
+          className="card"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            backgroundColor: "white",
+            borderRadius: "10px",
+            boxShadow: "0 0 20px rgba(0,0,0,0.1)",
+            padding: "2rem",
+          }}
+        >
+          <div className="texts" style={{ fontSize: "100%" }}>
+            <h2
+              style={{
+                fontSize: "1.875rem",
+                lineHeight: "2.25rem",
+                fontWeight: "800",
+                marginBlockStart: "0.83em",
+                marginBlockEnd: "0.83em",
+                marginInlineStart: "0px",
+                marginInlineEnd: "0px",
+                color: "rgb(17 24 39)",
+              }}
+            >
+              What is the price of TFX?
+            </h2>
+            <p
+              style={{
+                fontFamily:
+                  "Open Sans, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, Noto Sans, Segoe UI, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+                fontSize: "1.125rem",
+                lineHeight: "1.75rem",
+                color: "rgb(107 114 128)",
+              }}
+            >
+              TFX is <b>completely free</b> — yep, you read that right! No
+              subscriptions, no paywalls, and no hidden fees. We believe in
+              making high-quality, immersive content accessible to everyone in
+              the flight sim community. That said, if you enjoy the addon and
+              wanna support the project, donations are always welcome through
+              our Ko-fi page. Every bit helps us keep the fire effects 🔥
+              (literally) coming!
+            </p>
+          </div>
+
+          <div className="image" style={{ marginLeft: "2rem" }}>
+            <img
+              src="https://installer.cdn.tritrisim.com/Images/777-3fire.png"
+              width="600rem"
+              style={{
+                borderRadius: "10px",
+              }}
             ></img>
           </div>
         </div>
