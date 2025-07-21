@@ -214,10 +214,23 @@ export default function Home() {
 }`}
       </style>
 
-      <head>
-        <link rel="icon" type="image/x-icon" href="https://installer.cdn.tritrisim.com/Images/tfx.ico"/>
-        <title>TriTriSim Official Website</title>
-      </head>
+      <Head>
+        <title>TriTriSim Website</title>
+        <link rel="icon" type="image/x-icon" href="public/tfx.ico" />
+
+        {/* Open Graph tags for Discord embeds */}
+        <meta property="og:title" content="TriTriSim TFX – Emergency Effects for MSFS" />
+        <meta property="og:description" content="Bring your simulator to life with fire, sparks and crash animations. Free for MSFS 2020 and 2024!" />
+        <meta property="og:image" content="https://installer.cdn.tritrisim.com/Images/FenixA319Fire.png" />
+        <meta property="og:url" content="https://tritrisim.com" />
+        <meta property="og:type" content="website" />
+
+        {/* Optional for Twitter card too */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="TriTriSim TFX – Emergency Effects for MSFS" />
+        <meta name="twitter:description" content="Bring your simulator to life with fire, sparks and crash animations. Free for MSFS 2020 and 2024!" />
+        <meta name="twitter:image" content="https://installer.cdn.tritrisim.com/Images/FenixA319Fire.png" />
+      </Head>
 
       <nav className="menu-container">
         <input type="checkbox" aria-label="Toggle menu" />
