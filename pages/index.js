@@ -226,7 +226,7 @@ html {
             content="Download fire, crash, and spark effects for Microsoft Flight Simulator. Free for MSFS2020 & 2024. Join our Discord!"
           />
 
-        <link rel="icon" type="image/x-icon" href="public/tfx.png" />
+        <link rel="icon" type="image/x-icon" href="/tfx.png" />
 
         {/* Open Graph tags for Discord embeds */}
         <meta
