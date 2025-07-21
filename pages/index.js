@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Head from "next/head";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
   {* background-image: url('https://installer.cdn.tritrisim.com/Images/FenixA319Fire.png');
 }*/}
 
-  
+
 
 .menu-container {
   position: relative;
@@ -181,7 +181,7 @@ export default function Home() {
   .menu li {
     padding: 0 20px;
   }
-  
+
   body {
     margin: 0;
     padding: 0;
@@ -212,26 +212,47 @@ export default function Home() {
   z-index: 0;
 } */
 
+html {
+  scroll-behavior: smooth;
+}
 
 }`}
       </style>
 
       <Head>
         <title>TriTriSim Website</title>
-        <link rel="icon" type="image/x-icon" href="https://installer.cdn.tritrisim.com/Images/tfx.png" />
+        <link rel="icon" type="image/x-icon" href="public/tfx.png" />
 
         {/* Open Graph tags for Discord embeds */}
-        <meta property="og:title" content="TriTriSim TFX – Emergency Effects for MSFS" />
-        <meta property="og:description" content="Bring your simulator to life with fire, sparks and crash animations. Free for MSFS 2020 and 2024!" />
-        <meta property="og:image" content="https://installer.cdn.tritrisim.com/Images/FenixA319Fire.png" />
+        <meta
+          property="og:title"
+          content="TriTriSim TFX – Emergency Effects for MSFS"
+        />
+        <meta
+          property="og:description"
+          content="Bring your simulator to life with fire, sparks and crash animations. Free for MSFS 2020 and 2024!"
+        />
+        <meta
+          property="og:image"
+          content="https://installer.cdn.tritrisim.com/Images/FenixA319Fire.png"
+        />
         <meta property="og:url" content="https://tritrisim.com" />
         <meta property="og:type" content="website" />
 
         {/* Optional for Twitter card too */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="TriTriSim TFX – Emergency Effects for MSFS" />
-        <meta name="twitter:description" content="Bring your simulator to life with fire, sparks and crash animations. Free for MSFS 2020 and 2024!" />
-        <meta name="twitter:image" content="https://installer.cdn.tritrisim.com/Images/FenixA319Fire.png" />
+        <meta
+          name="twitter:title"
+          content="TriTriSim TFX – Emergency Effects for MSFS"
+        />
+        <meta
+          name="twitter:description"
+          content="Bring your simulator to life with fire, sparks and crash animations. Free for MSFS 2020 and 2024!"
+        />
+        <meta
+          name="twitter:image"
+          content="https://installer.cdn.tritrisim.com/Images/FenixA319Fire.png"
+        />
       </Head>
 
       <nav className="menu-container">
@@ -241,21 +262,26 @@ export default function Home() {
         <span></span>
         <a href="https://tritrisim.com" className="menu-logo">
           <img
-            src="https://storage.ko-fi.com/cdn/useruploads/3c143159-e5b1-4937-be4d-a50a85fc00f3_66d56e99-00a0-45a5-851e-fd25252abcab.png"
+            src="https://installer.cdn.tritrisim.com/Images/tfx.png"
             alt="Logo"
           />
         </a>
         <div className="menu">
           <ul>
             <li>
-              <a href="https://tritrisim.com">Home</a>
+              <a href="#">Home</a>
             </li>
             <li>
-              <a
-                href="https://github.com/TriTriTheCuber/TFX/raw/refs/heads/main/TriTriSim%20Installer.exe"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a href="#requirements">Requirements</a>
+            </li>
+            <li>
+              <a href="#download" target="_blank" rel="noopener noreferrer">
                 Download
               </a>
             </li>
@@ -269,6 +295,7 @@ export default function Home() {
       </nav>
 
       <section
+        id="download"
         style={{
           backgroundImage:
             "url('https://installer.cdn.tritrisim.com/Images/FenixA319Fire.png')",
@@ -298,7 +325,7 @@ export default function Home() {
         <a
           href="https://github.com/TriTriTheCuber/TFX/raw/refs/heads/main/TriTriSim%20Installer.exe"
           style={{
-            marginRight:"10px",
+            marginRight: "10px",
             fontSize: "2rem",
             padding: "15px 30px",
             borderRadius: "12px",
@@ -318,7 +345,7 @@ export default function Home() {
         >
           Download
         </a>
-                  <br/>
+        <br />
         <a
           href="https://discord.gg/854qYnA3dm"
           style={{
@@ -352,6 +379,7 @@ export default function Home() {
         }}
       >
         <div
+          id="about"
           className="card"
           style={{
             display: "flex",
@@ -499,11 +527,14 @@ export default function Home() {
             >
               TFX is <b>completely free</b> — yep, you read that right! No
               subscriptions, no paywalls, and no hidden fees. We believe in
-              making <b>high-quality, immersive content accessible to everyone in
-              the flight sim community.</b> That said, if you enjoy the addon and
-              wanna support the project, <b>donations are always welcome through
-              our Ko-fi page.</b> Every bit helps us keep the fire effects
-              (literally) coming!
+              making{" "}
+              <b>
+                high-quality, immersive content accessible to everyone in the
+                flight sim community.
+              </b>{" "}
+              That said, if you enjoy the addon and wanna support the project,{" "}
+              <b>donations are always welcome through our Ko-fi page.</b> Every
+              bit helps us keep the fire effects (literally) coming!
             </p>
           </div>
 
@@ -519,6 +550,179 @@ export default function Home() {
         </div>
       </div>
 
+      <div
+        id="requirements"
+        style={{
+          padding: "3rem 2rem",
+          backgroundColor: "#f9f9f9",
+          fontFamily:
+            "Open Sans, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, Noto Sans, Segoe UI, sans-serif",
+        }}
+      >
+        <h2
+          style={{
+            fontSize: "2rem",
+            fontWeight: "800",
+            marginBottom: "2rem",
+            color: "#111827",
+            textAlign: "center",
+          }}
+        >
+          System Requirements
+        </h2>
+
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "center",
+            gap: "2rem",
+            maxWidth: "1000px",
+            margin: "0 auto",
+          }}
+        >
+          <div
+            style={{
+              flex: "1 1 300px",
+              backgroundColor: "white",
+              borderRadius: "10px",
+              padding: "1.5rem",
+              boxShadow: "0 0 10px rgba(0,0,0,0.05)",
+            }}
+          >
+            <h3
+              style={{
+                fontSize: "1.5rem",
+                fontWeight: "700",
+                marginBottom: "1rem",
+                color: "#111827",
+              }}
+            >
+              Minimum
+            </h3>
+            <ul style={{ lineHeight: "1.8", color: "#4B5563" }}>
+              <li>Requires a 64-bit processor and OS</li>
+              <li>OS: Windows 10</li>
+              <li>Processor: Intel i5-4460 | AMD Ryzen 3 1200</li>
+              <li>Memory: 8 GB RAM</li>
+              <li>Graphics: NVIDIA GTX 770 | AMD Radeon RX 570</li>
+              <li>DirectX: Version 11</li>
+              <li>Storage: 1.6 GB available space</li>
+            </ul>
+          </div>
+
+          <div
+            style={{
+              flex: "1 1 300px",
+              backgroundColor: "white",
+              borderRadius: "10px",
+              padding: "1.5rem",
+              boxShadow: "0 0 10px rgba(0,0,0,0.05)",
+            }}
+          >
+            <h3
+              style={{
+                fontSize: "1.5rem",
+                fontWeight: "700",
+                marginBottom: "1rem",
+                color: "#111827",
+              }}
+            >
+              Recommended
+            </h3>
+            <ul style={{ lineHeight: "1.8", color: "#4B5563" }}>
+              <li>Requires a 64-bit processor and OS</li>
+              <li>OS: Windows 10</li>
+              <li>Processor: Intel i5-8400 | AMD Ryzen 5 1500X</li>
+              <li>Memory: 16 GB RAM</li>
+              <li>Graphics: NVIDIA GTX 970 | AMD Radeon RX 590</li>
+              <li>DirectX: Version 11</li>
+              <li>Storage: 2 GB available space</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="gallery"
+        style={{
+          padding: "3rem 2rem",
+          backgroundColor: "#ffffff",
+        }}
+      >
+        <h2
+          style={{
+            fontSize: "2rem",
+            fontWeight: "800",
+            marginBottom: "2rem",
+            color: "#111827",
+            textAlign: "center",
+            fontFamily:
+              "Open Sans, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, Noto Sans, Segoe UI, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
+          }}
+        >
+          Gallery
+        </h2>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(3, 1fr)",
+            gap: "1.5rem",
+            justifyItems: "center",
+            maxWidth: "1300px",
+            margin: "0 auto",
+            padding: "0 1rem",
+          }}
+        >
+          {[
+            "https://installer.cdn.tritrisim.com/Images/737fire.png",
+            "https://installer.cdn.tritrisim.com/Images/777-3fire.png",
+            "https://installer.cdn.tritrisim.com/Images/787fire.png",
+            "https://installer.cdn.tritrisim.com/Images/FenixA319Fire.png",
+            "https://installer.cdn.tritrisim.com/Images/FenixFire1.png",
+            "https://installer.cdn.tritrisim.com/Images/FenixFire2.png",
+            "https://installer.cdn.tritrisim.com/Images/b777-2fire.png",
+            "https://installer.cdn.tritrisim.com/Images/b777ffire.png",
+            "https://installer.cdn.tritrisim.com/Images/a380fire.png",
+          ].map((src, index) => (
+            <a
+              key={index}
+              href={src}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                width: "100%",
+                maxWidth: "400px",
+                aspectRatio: "16 / 9",
+                overflow: "hidden",
+                borderRadius: "10px",
+                boxShadow: "0 0 15px rgba(0,0,0,0.05)",
+                display: "block",
+                transition: "transform 0.3s ease",
+              }}
+            >
+              <img
+                src={src}
+                alt={`Screenshot ${index + 1}`}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  transition: "transform 0.3s ease",
+                  cursor: "pointer",
+                }}
+                onMouseOver={(e) =>
+                  (e.currentTarget.style.transform = "scale(1.05)")
+                }
+                onMouseOut={(e) =>
+                  (e.currentTarget.style.transform = "scale(1)")
+                }
+              />
+            </a>
+          ))}
+        </div>
+      </div>
+
       <footer
         style={{
           backgroundColor: "#000000",
@@ -529,9 +733,8 @@ export default function Home() {
           marginTop: "2rem",
         }}
       >
-      © TriTriSim 2025. All rights reserved.
+        © TriTriSim 2025. All rights reserved.
       </footer>
-
     </>
   );
 }
