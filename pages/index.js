@@ -308,16 +308,11 @@ export default function Home() {
           }}
         >
           <div className="texts" style={{ fontSize: "100%" }}>
-            <h2 style={{ fontSize: "1.875rem" }}>TriTriSim (TFX)</h2>
-            <p>
-              TFX Is an addon for <b>Microsoft Flight Simulator</b> TFX Supports
-              both editions <b>(2020 and 2024).</b> TFX adds realistic looking
-              effects such as <b>Fire, Smoke, Sparks and crash physics</b>
-              <sup>
-                {" "}
-                (Crash physics are currently only avalible in experimental
-                section)
-              </sup>
+            <h2 style={{ fontSize: "1.875rem", lineHeight: '2.25rem' }}>What is TriTriSim TFX?</h2>
+            <p style={{ fontFamily: 'Open Sans, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, Noto Sans, Segoe UI, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji',     fontSize: '1.125rem', lineHeight: '1.75rem' }}>
+              TFX Is an addon for <b>Microsoft Flight Simulator</b>
+              , focusing mainly on emergency effects that aren’t visible in the normal game. This includes fires, sparks, and even crash animations.
+              TFX supports both <b>MSFS 2020 and 2024</b>, and includes support for a wide range of aircraft.
             </p>
           </div>
 
