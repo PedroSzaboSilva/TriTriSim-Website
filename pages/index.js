@@ -214,10 +214,10 @@ export default function Home() {
 }`}
       </style>
 
-      <meta>
+      <head>
         <link rel="icon" type="image/x-icon" href="https://installer.cdn.tritrisim.com/Images/tfx.ico"/>
         <title>TriTriSim Official Website</title>
-      </meta>
+      </head>
 
       <nav className="menu-container">
         <input type="checkbox" aria-label="Toggle menu" />
