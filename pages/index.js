@@ -218,7 +218,7 @@ export default function Home() {
 
       <Head>
         <title>TriTriSim Website</title>
-        <link rel="icon" type="image/x-icon" href="public/tfx.png" />
+        <link rel="icon" type="image/x-icon" href="https://installer.cdn.tritrisim.com/Images/tfx.png" />
 
         {/* Open Graph tags for Discord embeds */}
         <meta property="og:title" content="TriTriSim TFX – Emergency Effects for MSFS" />
