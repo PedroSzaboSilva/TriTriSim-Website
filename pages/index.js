@@ -220,7 +220,14 @@ html {
       </style>
 
       <Head>
-        <title>TriTriSim Website</title>
+        <Head>
+          <title>TriTriSim TFX – Emergency Effects for MSFS</title>
+          <meta
+            name="description"
+            content="Download fire, crash, and spark effects for Microsoft Flight Simulator. Free for MSFS2020 & 2024. Join our Discord!"
+          />
+        </Head>
+
         <link rel="icon" type="image/x-icon" href="public/tfx.png" />
 
         {/* Open Graph tags for Discord embeds */}
