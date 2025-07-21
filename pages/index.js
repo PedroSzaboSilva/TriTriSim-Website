@@ -213,6 +213,12 @@ export default function Home() {
 
 }`}
       </style>
+
+      <meta>
+        <link rel="icon" type="image/x-icon" href="https://installer.cdn.tritrisim.com/Images/tfx.ico"/>
+        <title>TriTriSim Official Website</title>
+      </meta>
+
       <nav className="menu-container">
         <input type="checkbox" aria-label="Toggle menu" />
         <span></span>
@@ -453,17 +459,17 @@ export default function Home() {
             >
               TFX is <b>completely free</b> — yep, you read that right! No
               subscriptions, no paywalls, and no hidden fees. We believe in
-              making high-quality, immersive content accessible to everyone in
-              the flight sim community. That said, if you enjoy the addon and
-              wanna support the project, donations are always welcome through
-              our Ko-fi page. Every bit helps us keep the fire effects 🔥
+              making <b>high-quality, immersive content accessible to everyone in
+              the flight sim community.</b> That said, if you enjoy the addon and
+              wanna support the project, <b>donations are always welcome through
+              our Ko-fi page.</b> Every bit helps us keep the fire effects
               (literally) coming!
             </p>
           </div>
 
           <div className="image" style={{ marginLeft: "2rem" }}>
             <img
-              src="https://installer.cdn.tritrisim.com/Images/777-3fire.png"
+              src="https://installer.cdn.tritrisim.com/Images/737fire.png"
               width="600rem"
               style={{
                 borderRadius: "10px",
@@ -472,6 +478,20 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <footer
+        style={{
+          backgroundColor: "#000000",
+          color: "#cdcdcd",
+          textAlign: "center",
+          padding: "1rem",
+          fontSize: "0.9rem",
+          marginTop: "2rem",
+        }}
+      >
+      © TriTriSim 2025. All rights reserved.
+      </footer>
+
     </>
   );
 }
