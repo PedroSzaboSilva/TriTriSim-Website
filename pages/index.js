@@ -179,6 +179,7 @@ export default function Home() {
   }
 }`}
       </style>
+      <meta name="google-site-verification" content="Vv1QCyqEuLW2jB0y5Ry2H8Ub-NDJGm4DU4mUw-rU890" />
       <nav className="menu-container">
         <input type="checkbox" aria-label="Toggle menu" />
         <span></span>
