@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="index-style.css" />
       </Head>
       <nav className="menu-container">
         <input type="checkbox" aria-label="Toggle menu" />
