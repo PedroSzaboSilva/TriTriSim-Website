@@ -298,6 +298,7 @@ export default function Home() {
         <a
           href="https://github.com/TriTriTheCuber/TFX/raw/refs/heads/main/TriTriSim%20Installer.exe"
           style={{
+            marginRight:"10px",
             fontSize: "2rem",
             padding: "15px 30px",
             borderRadius: "12px",
@@ -316,6 +317,30 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Download
+        </a>
+                  <br/>
+        <a
+          href="https://discord.gg/854qYnA3dm"
+          style={{
+            marginRight: "10px",
+            fontSize: "2rem",
+            padding: "15px 30px",
+            borderRadius: "12px",
+            maxWidth: "300px",
+            width: "80%",
+            textAlign: "center",
+            backgroundColor: "transparent",
+            border: "2px solid white",
+            color: "white",
+            textDecoration: "none",
+            cursor: "pointer",
+            zIndex: 1,
+            position: "relative",
+          }}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Discord
         </a>
       </section>
 
