@@ -8,7 +8,7 @@ export default function Home() {
           return /Android|iPhone|iPad/i.test(navigator.userAgent);}
 
           function ismac() {
-          return /Mac/;}
+          return /mac/i.test(navigator.userAgent);;}
           
           console.log("Is mobile: " + ismobile());
           console.log("Is Mac: " + ismac())
