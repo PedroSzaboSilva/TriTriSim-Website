@@ -3,6 +3,12 @@ import Head from "next/head";
 export default function Home() {
   return (
     <>
+      <script>
+        {`function ismobile() {
+          return /Android|iPhone|iPad/i.test(navigator.userAgent);}
+          
+          console.log("Is mobile: " + ismobile());`}
+      </script>
       <style>
         {`body {
   overflow-x: hidden;
