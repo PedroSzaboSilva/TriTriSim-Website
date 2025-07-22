@@ -15,7 +15,7 @@ export default function Home() {
           if (ismobile()) {
             window.location.replace("http://m.tritrisim.com");
           }
-          f (ismac()) {
+          if (ismac()) {
             window.alert("WARNING: TFX is not compatible with macos please use windows");
           }`}
       </script>
