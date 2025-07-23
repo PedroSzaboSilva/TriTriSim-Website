@@ -6,7 +6,6 @@ export default function Home() {
       <script>
         {`function ismobile() {
           return /Android|iPhone|iPad/i.test(navigator.userAgent);}
-          
           console.log("Is mobile: " + ismobile());
           if (ismobile()) {
             window.location.replace("http://m.tritrisim.com");
@@ -495,7 +494,7 @@ html {
               }}
             >
               TFX includes a wide range of effects, including{" "}
-              <b>fires, sparks, and crash animations</b>. It also includes
+              <b>fires, sparks, water splashes, and crash animations</b>. It also includes
               support for <b>both native and custom aircrafts</b> that are
               compatible with the <b>MSFS2020</b> and <b>MSFS2024</b>. TFX is
               constantly being updated with new effects and aircrafts.
