@@ -6,10 +6,7 @@ export default function Home() {
       <script>
         {`function ismobile() {
           return /Android|iPhone|iPad/i.test(navigator.userAgent);}
-
-          
           console.log("Is mobile: " + ismobile());
-          console.log("Is Mac: " + ismac())
           if (ismobile()) {
             window.location.replace("http://m.tritrisim.com");
           }`}
