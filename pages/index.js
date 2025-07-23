@@ -7,16 +7,11 @@ export default function Home() {
         {`function ismobile() {
           return /Android|iPhone|iPad/i.test(navigator.userAgent);}
 
-          function ismac() {
-          return /mac/i.test(navigator.userAgent);;}
           
           console.log("Is mobile: " + ismobile());
           console.log("Is Mac: " + ismac())
           if (ismobile()) {
             window.location.replace("http://m.tritrisim.com");
-          }
-          if (ismac()) {
-            window.alert("WARNING: TFX is not compatible with macos please use windows");
           }`}
       </script>
       <style>
