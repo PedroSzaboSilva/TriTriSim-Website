@@ -16,8 +16,7 @@ export default function Home() {
   overflow-x: hidden;
   font-family: Sans-Serif;
   margin: 0;
-  {* background-image: url('https://installer.cdn.tritrisim.com/Images/FenixA319Fire.png');
-}*/}
+/}
 
 
 
