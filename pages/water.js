@@ -10,16 +10,6 @@ export default function ScrollFrames() {
   const fadeDistance = 100;
 
   useEffect(() => {
-    const preloadImages = () => {
-      for (let i = 0; i < totalFrames; i++) {
-        const img = new Image();
-        img.src = getImageSrc(i);
-      }
-    };
-    preloadImages();
-  }, []);
-
-  useEffect(() => {
     const handleResize = () => setScrollHeight(window.innerHeight * 2); // diminui para 2x
     window.addEventListener("resize", handleResize);
     handleResize();
@@ -301,6 +291,15 @@ html {
       />
 
       <Head>
+        {Array.from({ length: totalFrames }).map((_, i) => (
+          <link
+            key={i}
+            rel="preload"
+            as="image"
+            href={`/water/${String(i + 1).padStart(3, "0")}.png`}
+          />
+        ))}
+                
         <title>TriTriSim TFX – Emergency Effects for MSFS</title>
         <meta
           name="description"
