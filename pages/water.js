@@ -1,15 +1,23 @@
 import { useEffect, useState } from "react";
 import Head from "next/head";
 
-
 export default function ScrollFrames() {
-
   const [scrollHeight, setScrollHeight] = useState(0);
   const [frameIndex, setFrameIndex] = useState(0);
   const [opacity, setOpacity] = useState(1);
   const totalFrames = 48;
   const speedFactor = 1;
   const fadeDistance = 100;
+
+  useEffect(() => {
+    const preloadImages = () => {
+      for (let i = 0; i < totalFrames; i++) {
+        const img = new Image();
+        img.src = getImageSrc(i);
+      }
+    };
+    preloadImages();
+  }, []);
 
   useEffect(() => {
     const handleResize = () => setScrollHeight(window.innerHeight * 2); // diminui para 2x
@@ -33,7 +41,8 @@ export default function ScrollFrames() {
       setFrameIndex(index);
 
       if (scrollTop > maxScroll - fadeDistance) {
-        const fadeOutProgress = (scrollTop - (maxScroll - fadeDistance)) / fadeDistance;
+        const fadeOutProgress =
+          (scrollTop - (maxScroll - fadeDistance)) / fadeDistance;
         setOpacity(1 - fadeOutProgress);
       } else {
         setOpacity(1);
@@ -49,7 +58,7 @@ export default function ScrollFrames() {
 
   return (
     <>
-          <script>
+      <script>
         {`function ismobile() {
           return /Android|iPhone|iPad/i.test(navigator.userAgent);}
           console.log("Is mobile: " + ismobile());
@@ -273,7 +282,7 @@ html {
 }`}
       </style>
       <div style={{ height: scrollHeight + "px" }}></div>
-        <img
+      <img
         src={getImageSrc(frameIndex)}
         style={{
           position: "fixed",
@@ -291,12 +300,12 @@ html {
         draggable={false}
       />
 
-              <Head>
+      <Head>
         <title>TriTriSim TFX – Emergency Effects for MSFS</title>
         <meta
-            name="description"
-            content="Download fire, crash, and spark effects for Microsoft Flight Simulator. Free for MSFS2020 & 2024. Join our Discord!"
-          />
+          name="description"
+          content="Download fire, crash, and spark effects for Microsoft Flight Simulator. Free for MSFS2020 & 2024. Join our Discord!"
+        />
 
         <link rel="icon" type="image/x-icon" href="/tfx.png" />
 
@@ -344,7 +353,10 @@ html {
         }}
       >
         <h1>Conteúdo normal da página</h1>
-        <p>Esse conteúdo já aparece logo depois da animação, sem aquele espaço gigante.</p>
+        <p>
+          Esse conteúdo já aparece logo depois da animação, sem aquele espaço
+          gigante.
+        </p>
         <p>Pode colocar o que quiser aqui.</p>
       </div>
     </>
