@@ -745,8 +745,9 @@ html {
           marginTop: "2rem",
         }}
       >
-        © TriTriSim 2025. All rights reserved.
+        TriTriSim 2025.
       </footer>
     </>
   );
 }
+
