@@ -197,7 +197,7 @@ export default function Home() {
 /* body {
   margin: 0;
   padding: 0;
-  background-image: url('https://installer.cdn.tritrisim.com/Images/FenixA319Fire.png');
+  background-image: url('https://tritrisim.com/Imagesforhomepage/BG.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
