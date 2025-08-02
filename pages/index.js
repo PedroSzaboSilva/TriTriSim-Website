@@ -335,7 +335,7 @@ html {
         />
 
         <a
-          href="https://installer.cdn.tritrisim.com/TriTriSim%20Installer%20Source%201.7.0_mwokL.zip"
+          href="https://installer.cdn.tritrisim.com/TriTriSim%20Installer%20Source%201.7.4.zip"
           style={{
             marginRight: "10px",
             fontSize: "2rem",
@@ -750,6 +750,7 @@ html {
     </>
   );
 }
+
 
 
 
