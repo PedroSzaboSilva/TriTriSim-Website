@@ -644,7 +644,7 @@ html {
             </h3>
             <ul style={{ lineHeight: "1.8", color: "#4B5563" }}>
               <li>Requires a 64-bit processor and OS</li>
-              <li>OS: Windows 10</li>
+              <li>OS: Windows 11</li>
               <li>Processor: Intel i5-8400 | AMD Ryzen 5 1500X</li>
               <li>Memory: 16 GB RAM</li>
               <li>Graphics: NVIDIA GTX 970 | AMD Radeon RX 590</li>
