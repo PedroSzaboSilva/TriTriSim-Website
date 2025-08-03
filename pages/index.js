@@ -197,7 +197,7 @@ export default function Home() {
 /* body {
   margin: 0;
   padding: 0;
-  background-image: url('https://installer.cdn.tritrisim.com/Images/FenixA319Fire.png');
+  background-image: url('https://raw.githubusercontent.com/Bofamily/tfx-images/refs/heads/main/image_11.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -246,7 +246,7 @@ html {
         />
         <meta
           property="og:image"
-          content="https://installer.cdn.tritrisim.com/Images/FenixA319Fire.png"
+          content="https://raw.githubusercontent.com/Bofamily/tfx-images/refs/heads/main/image_11.png"
         />
         <meta property="og:url" content="https://tritrisim.com" />
         <meta property="og:type" content="website" />
@@ -263,7 +263,7 @@ html {
         />
         <meta
           name="twitter:image"
-          content="https://installer.cdn.tritrisim.com/Images/FenixA319Fire.png"
+          content="https://raw.githubusercontent.com/Bofamily/tfx-images/refs/heads/main/image_11.png"
         />
       </Head>
 
