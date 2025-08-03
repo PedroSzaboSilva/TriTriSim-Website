@@ -310,7 +310,7 @@ html {
         id="download"
         style={{
           backgroundImage:
-            "url('https://installer.cdn.tritrisim.com/Images/FenixA319Fire.png')",
+            "url('https://raw.githubusercontent.com/Bofamily/tfx-images/refs/heads/main/image_11.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
