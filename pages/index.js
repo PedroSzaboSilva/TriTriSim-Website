@@ -197,7 +197,7 @@ export default function Home() {
 /* body {
   margin: 0;
   padding: 0;
-  background-image: url('https://raw.githubusercontent.com/Bofamily/tfx-images/refs/heads/main/image_11.png');
+  background-image: url('https://website.cdn.tritrisim.com/compressed/biga320.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -246,7 +246,7 @@ html {
         />
         <meta
           property="og:image"
-          content="https://raw.githubusercontent.com/Bofamily/tfx-images/refs/heads/main/image_11.png"
+          content="https://website.cdn.tritrisim.com/compressed/biga320.jpg"
         />
         <meta property="og:url" content="https://tritrisim.com" />
         <meta property="og:type" content="website" />
@@ -263,7 +263,7 @@ html {
         />
         <meta
           name="twitter:image"
-          content="https://raw.githubusercontent.com/Bofamily/tfx-images/refs/heads/main/image_11.png"
+          content="https://website.cdn.tritrisim.com/compressed/biga320.jpg"
         />
       </Head>
 
@@ -310,7 +310,7 @@ html {
         id="download"
         style={{
           backgroundImage:
-            "url('https://raw.githubusercontent.com/Bofamily/tfx-images/refs/heads/main/image_11.png')",
+            "url('https://website.cdn.tritrisim.com/compressed/biga320.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -437,7 +437,7 @@ html {
 
           <div className="image" style={{ marginLeft: "2rem" }}>
             <img
-              src="https://installer.cdn.tritrisim.com/Images/777-3fire.png"
+              src="https://website.cdn.tritrisim.com/compressed/773.jpg"
               width="600rem"
               style={{
                 borderRadius: "10px",
@@ -460,7 +460,7 @@ html {
         >
           <div className="image" style={{ marginRight: "2rem" }}>
             <img
-              src="https://installer.cdn.tritrisim.com/Images/b777ffire.png"
+              src="https://website.cdn.tritrisim.com/compressed/77f.jpg"
               width="600rem"
               style={{
                 borderRadius: "10px",
@@ -552,7 +552,7 @@ html {
 
           <div className="image" style={{ marginLeft: "2rem" }}>
             <img
-              src="https://installer.cdn.tritrisim.com/Images/737fire.png"
+              src="https://website.cdn.tritrisim.com/compressed/737.jpg"
               width="600rem"
               style={{
                 borderRadius: "10px",
@@ -687,15 +687,15 @@ html {
           }}
         >
           {[
-            "https://installer.cdn.tritrisim.com/Images/737fire.png",
-            "https://installer.cdn.tritrisim.com/Images/777-3fire.png",
-            "https://installer.cdn.tritrisim.com/Images/787fire.png",
-            "https://installer.cdn.tritrisim.com/Images/FenixA319Fire.png",
-            "https://installer.cdn.tritrisim.com/Images/FenixFire1.png",
-            "https://installer.cdn.tritrisim.com/Images/FenixFire2.png",
-            "https://installer.cdn.tritrisim.com/Images/b777-2fire.png",
-            "https://installer.cdn.tritrisim.com/Images/b777ffire.png",
-            "https://installer.cdn.tritrisim.com/Images/a380fire.png",
+            "https://website.cdn.tritrisim.com/compressed/737.jpg",
+            "https://website.cdn.tritrisim.com/compressed/773.jpg",
+            "https://website.cdn.tritrisim.com/compressed/biga320.jpg",
+            "https://website.cdn.tritrisim.com/compressed/a319.jpg",
+            "https://website.cdn.tritrisim.com/compressed/a320.jpg",
+            "https://website.cdn.tritrisim.com/compressed/a3201.jpg",
+            "https://website.cdn.tritrisim.com/compressed/772.jpg",
+            "https://website.cdn.tritrisim.com/compressed/77f.jpg",
+            "https://website.cdn.tritrisim.com/compressed/a380.jpg",
           ].map((src, index) => (
             <a
               key={index}
