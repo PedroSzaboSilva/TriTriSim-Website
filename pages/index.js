@@ -300,7 +300,7 @@ html {
           </ul>
           <ul>
             <li>
-              <a href="https://ko-fi.com/tritrithecuber">Donate</a>
+              <a href="https://ko-fi.com/tritrithecuber">Support TFX</a>
             </li>
           </ul>
         </div>
