@@ -293,7 +293,7 @@ html {
               <a href="#requirements">Requirements</a>
             </li>
             <li>
-              <a href="#download" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/TriTriTheCuber/TFX/raw/refs/heads/main/TriTriSim%20Installer.exe" target="_blank" rel="noopener noreferrer">
                 Download
               </a>
             </li>
