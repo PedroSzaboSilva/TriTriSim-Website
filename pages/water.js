@@ -351,12 +351,11 @@ html {
           marginTop: "-100vh", // “puxa” o conteúdo pra cima, grudando na animação
         }}
       >
-        <h1>Conteúdo normal da página</h1>
+        <h1>TFX Now has water splashes 🎉🥳</h1>
         <p>
-          Esse conteúdo já aparece logo depois da animação, sem aquele espaço
-          gigante.
+          YAYAYAYYAYAYY
         </p>
-        <p>Pode colocar o que quiser aqui.</p>
+        <p></p>
       </div>
     </>
   );
